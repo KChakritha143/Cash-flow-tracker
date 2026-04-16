@@ -47,3 +47,10 @@ Cash-flow-tracker/
 
 ## Live Demo
 https://cash-flow-tracker-nymj58ii1-kchakritha143s-projects.vercel.app
+
+## Screenshots
+
+<img width="1889" height="889" alt="image" src="https://github.com/user-attachments/assets/e5e69cd4-a975-4e6e-867d-6b93a06ef654" />
+<img width="1850" height="616" alt="image" src="https://github.com/user-attachments/assets/26271822-eeda-498a-9cfe-4237e6649d31" />
+<img width="1890" height="885" alt="image" src="https://github.com/user-attachments/assets/9e4b4db0-8c5b-4389-8948-bf73f2da7759" />
+
