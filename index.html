@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cash-Flow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Cash Flow(Salary and Expense tracker)</h1>
+    <h3>Enter Salary</h3>
+    <div class="form-group">
+        <input type="number" id="salaryInput" placeholder="Enter salary">
+        <button onclick="setSalary()">Set Salary</button>
+    </div>
+    <h2>Total Salary: ₹<span id="salaryDisplay">0</span></h2>
+    <hr>
+
+    <h3>Add Expense</h3>
+
+    <input type="text" id="expenseName" placeholder="Expense name">
+    <div class="form-group">
+        <input type="number" id="expenseAmount" placeholder="Amount">
+        <button onclick="addExpense()">Add Expense</button>
+    </div>
+    <h3>Expenses List</h3>
+    <ul id="expenseList"></ul>
+
+    <h2>Remaining Balance: ₹<span id="balance">0</span></h2>
+    <h3>Expense Chart</h3>
+    <div class="chart-container">
+        <canvas id="myChart" width="250" height="250"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

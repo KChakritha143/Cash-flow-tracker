@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #2c7be5;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1a5edb;
+}
+
+ul {
+    margin: 10px auto;
+    padding: 0;
+}
+
+li {
+    background: #f1f3f6;
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:hover {
+    background: #e6ebf1;
+}
+
+li button {
+    background: transparent;
+    color: #ff4d4d;
+    font-size: 16px;
+}
+
+.form-group {
+    text-align: center;
+} 
+
+#balance {
+    font-weight: bold;
+    text-align: center;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#myChart {
+    width: 250px !important;
+    height: 250px !important;
+}
